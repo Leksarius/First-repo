@@ -1,0 +1,208 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-image: url(img/bghead.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.product {
+    height=250px; 
+    width=250px;
+    text-align: center;
+    float: left;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.foot {
+    clear: both;
+}
+
+.footer {
+    height: 27px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #ccc;
+    clear: both;
+}
+
+.minilogo {
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.tablemenu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header table {
+    margin: 0 auto;
+}
+
+.header td {
+    height: 100px;
+    vertical-align: middle;
+}
+
+.header,
+.footer,
+.bot,
+.link,
+.menu li a {
+    color: black;
+    font-size: 18px;
+    font-family: cursive;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu li {
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    margin-left: -.36em;
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.menu li a {
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.menu li a:active {
+    color: green;
+}
+
+.menu li:hover .skipmenu {
+    display: table-header-group;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu li:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu li a:hover:before {
+    content: "=> ";
+    color: red;
+}
+
+.menu li a:hover:after {
+    content: " <=";
+    color: red;
+}
+
+.skipmenu {
+    display: none;
+}
+
+.top,
+.mid {
+    color: black;
+    background-color: #ccc;
+    border: 2px solid black;
+    text-align: center;
+}
+
+img[alt="biglogo"] {
+    border: 4px solid grey;
+}
+
+img[alt="mobile"] {
+    outline: 2px solid orange;
+}
+
+img[alt="mobile"]:hover {
+    outline: 0;
+}
+
+.zag {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.small {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.small:first-letter {
+    font-size: 35px;
+    font-style: normal;
+    color: green;
+}
+
+.big {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.big:first-letter {
+    font-size: 35px;
+    font-style: oblique;
+    color: green;
+}
+
+.har li {
+    color: black;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+.har {
+    list-style-image: url(img/marker.png)
+}
+
+input[type="text"],
+input[type="password"] {
+    color: black font-size: 14px;
+    font-style: normal;
+    height: 14px;
+    width: 243px;
+}
+
+.sendmy input[type="text"],
+textarea {
+    text-transform: capitalize;
+}
+
+.sendmy input[type="text"]:focus {
+    background-color: skyblue;
+    color: darkgreen;
+}
